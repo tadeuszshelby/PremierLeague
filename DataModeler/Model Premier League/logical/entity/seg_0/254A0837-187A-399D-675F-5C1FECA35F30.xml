@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="254A0837-187A-399D-675F-5C1FECA35F30" name="club">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-09 20:38:42 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_club" id="4D17D486-8F3C-8FFC-F3D8-ABEBF32810B6">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-09 20:38:53 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="venue" id="F3144CB4-B64D-CE97-5EC5-D2BC3F16A29D">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-09 20:39:03 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="description" id="F82D3E2C-25D3-676A-71B7-CCD228548442">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-09 20:39:11 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_stadium" id="29260A51-4FC6-5A84-05FD-86643183C61F">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-09 20:39:25 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
