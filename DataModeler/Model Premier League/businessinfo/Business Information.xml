@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="BF373D40-2CA7-4F3B-FB8F-996AA1E5627B">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-09 20:07:06 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

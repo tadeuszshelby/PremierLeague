@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Model Premier League" id="69CAA78C-7F58-E83B-D065-E21EB5541F3B" version="3.5">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-09 20:07:06 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>69CAA78C-7F58-E83B-D065-E21EB5541F3B</designId>
+</OSDM_Design>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="624AC72E-F470-A9EB-FA14-B9E057D78D10" mainViewID="3EE16AAE-6F6D-F092-1681-F8210DFEB61C">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-09 20:07:06 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

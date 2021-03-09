@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="783F2D39-1BC2-E410-A1FE-EA1E1C513B3B" name="Player">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-09 20:25:14 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_player" id="AEAC63E8-D7EB-893B-3D01-7D0812A5F095">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-09 20:25:28 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_club" id="F1DA7634-6F58-9EFD-F612-9A01195708AB">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-09 20:26:01 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="profilepicture" id="C365C07D-FB71-61CD-C4BF-02D7B450649A">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-09 20:26:29 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datebirth" id="FC71FD69-526D-4088-E42D-26C508E6948D">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-09 20:26:51 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="age" id="188E4D20-B26B-E60F-3817-E0126AA01084">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-09 20:27:34 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="placebirth" id="43C9673E-5FE0-D3EE-357F-9BB8052EB654">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-09 20:27:40 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="citizenship" id="F015807F-8BAC-350A-E44E-14396BC13366">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-09 20:27:53 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="height" id="D4C1576D-BD5F-CA24-BCD2-3FF8CE988BDB">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-09 20:28:02 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

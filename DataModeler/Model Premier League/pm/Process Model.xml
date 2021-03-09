@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="D3AB9C56-8E1E-A413-BA2C-D08E33A460B3">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-09 20:07:06 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>
