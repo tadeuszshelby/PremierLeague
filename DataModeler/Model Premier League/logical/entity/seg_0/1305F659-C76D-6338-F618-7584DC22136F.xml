@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1305F659-C76D-6338-F618-7584DC22136F" name="squad">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-11 20:54:28 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_squad" id="50AEF9C9-75F5-ADC3-C039-2F96E45C6F88">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-11 20:54:33 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_match" id="175EE1D4-889E-E050-1CE8-ED8709F1AE43">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-11 20:54:39 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_player" id="DAFF312E-4CE3-4712-9E1E-1F4F804627F2">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-11 20:54:46 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="playerposition" id="A18865E7-3E58-BF58-C9CF-FEFDEC3AADAF">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-11 20:54:53 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

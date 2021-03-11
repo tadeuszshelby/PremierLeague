@@ -1,0 +1,404 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5064801A-DB87-07FF-4C7A-4A4E49FC8568" name="statistics">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-11 21:04:40 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_statistics" id="EFB7D053-0243-A634-76B4-E9F3276F53E4">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-11 21:07:21 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_player" id="1DB0DD7D-02AA-B8E7-3B12-7FC2FFA6C129">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-11 21:09:34 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="halfmatch" id="C0EB93A4-3FB4-884A-A63D-36DD3A5C363B">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-11 21:09:39 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rating" id="8BFA5F87-169B-B092-E6E3-4F2D586495B6">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-11 21:09:48 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="details" id="536D1045-00C1-E6D3-1111-08FA96C8DF15">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-11 21:09:52 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="minutesplayed" id="1A44AC09-059A-FD3A-907F-BDC5F23E69B5">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-11 21:09:57 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="touches" id="905AB123-9798-97FE-8659-01190977DAE0">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-11 21:10:04 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="punches" id="A2BC0173-2782-D1D3-40DE-4DC8F44CF3E2">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-11 21:10:10 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="highclaims" id="41B4C75A-B6FA-458A-B5DC-D0A50AAEB093">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-11 21:10:15 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="saves" id="38A23C46-0E87-3534-B8B0-B82D90C242AB">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-11 21:10:25 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="runout" id="A1644EA1-8421-C765-8C10-6BA452855529">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-11 21:10:30 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="clearnes" id="E4E63440-4AE7-1544-4378-BF97A052071E">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-11 21:10:36 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="longballs" id="D232BFDD-36F8-E856-410E-B103B2039132">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-11 21:10:45 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="crosses" id="20EAE9FF-BE21-853E-4635-913660DD4760">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-11 21:11:24 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="accpasses" id="CB3BE16C-7E9E-D3E9-6963-5D8B00B3868B">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-11 21:11:30 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="keypasses" id="35D9E686-CC0B-F392-5F6A-86012C6D797D">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-11 21:11:59 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="shotsontarget" id="668918BB-2952-BFE1-4A8F-A9DAAAD7E7FD">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-11 21:12:06 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="shotsofftarget" id="6BB5D0F2-4A2E-DE83-0B14-E4A3BE8E929A">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-11 21:12:14 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="blockedshots" id="7368A297-C80F-45E0-0995-0E274333C700">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-11 21:12:23 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="interceptions" id="550BDBC0-1F2B-0B3F-7EE3-3E931F897669">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-11 21:12:35 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dribbleattemts" id="62801C63-A2C4-D55D-891B-730AF68853ED">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-11 21:12:43 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tackes" id="3A881D03-B8A9-59F1-23B9-4207B5A8A043">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-11 21:12:51 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="shotsblocked" id="AAFF3EBD-A343-8910-9E18-A735F7CA44E6">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-11 21:12:55 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ground" id="37F3C50B-AE44-258C-F556-2BA94D63FD13">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-11 21:13:01 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dribblepast" id="896E5A35-3C89-371E-7AA7-4939C5882B85">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-11 21:13:06 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fouls" id="CF6AB5B2-739C-64BC-F1C5-247FFF5321E2">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-11 21:13:17 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="wasfoued" id="81FBDD19-21FC-E965-FA64-DD6CA41BF7DA">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-11 21:13:23 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="substitutionon" id="B6FDB099-598B-D574-8412-6B3589DFEA03">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-11 21:13:31 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="substitutionoff" id="35405A5E-CD7D-02EE-6ADF-A37E180A9EA2">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-11 21:13:46 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="goals" id="B9BA0984-A94D-1668-AB84-545461E57424">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-11 21:13:59 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="assist" id="2956A192-BC6A-ADF0-4D51-A7F01CD23299">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-11 21:14:04 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="owngoals" id="E2E80DB8-4016-A154-426D-9AB4EBF46216">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-11 21:14:10 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="yellowcards" id="903DA63E-1595-3CF8-70DD-E42CC0ECCE8F">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-11 21:14:15 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="secondyellowcards" id="31319685-92DE-B386-11A9-826E95E996A1">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-11 21:14:26 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="redcard" id="94BD66EF-3CE3-D502-57C3-6E171C876ABA">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-11 21:14:36 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

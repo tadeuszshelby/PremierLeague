@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="783F2D39-1BC2-E410-A1FE-EA1E1C513B3B" name="player">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F892B887-7BE1-451D-5712-7530E233A425" name="attribute">
 <createdBy>bilsk</createdBy>
-<createdTime>2021-03-09 20:25:14 UTC</createdTime>
+<createdTime>2021-03-11 20:59:57 UTC</createdTime>
 <ownerDesignName>Model Premier League</ownerDesignName>
 <engineerTo>
 <item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_player" id="AEAC63E8-D7EB-893B-3D01-7D0812A5F095">
+<Attribute name="id_attribute" id="74235D2D-D822-0F90-CC01-EB44A967A256">
 <createdBy>bilsk</createdBy>
-<createdTime>2021-03-09 20:25:28 UTC</createdTime>
+<createdTime>2021-03-11 21:00:06 UTC</createdTime>
 <ownerDesignName>Model Premier League</ownerDesignName>
 <engineerTo>
 <item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
@@ -26,9 +26,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_club" id="F1DA7634-6F58-9EFD-F612-9A01195708AB">
+<Attribute name="id_player" id="9DC92B94-136E-2EB9-4B74-F52805B18555">
 <createdBy>bilsk</createdBy>
-<createdTime>2021-03-09 20:26:01 UTC</createdTime>
+<createdTime>2021-03-11 21:00:34 UTC</createdTime>
 <ownerDesignName>Model Premier League</ownerDesignName>
 <engineerTo>
 <item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
@@ -37,9 +37,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="profilepicture" id="C365C07D-FB71-61CD-C4BF-02D7B450649A">
+<Attribute name="dateupdate" id="04E8CA7D-8284-565B-4516-D19A1C6D10B2">
 <createdBy>bilsk</createdBy>
-<createdTime>2021-03-09 20:26:29 UTC</createdTime>
+<createdTime>2021-03-11 21:00:41 UTC</createdTime>
 <ownerDesignName>Model Premier League</ownerDesignName>
 <engineerTo>
 <item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
@@ -48,9 +48,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="datebirth" id="FC71FD69-526D-4088-E42D-26C508E6948D">
+<Attribute name="attacking" id="710762BD-EAB5-3C42-31F3-D742A2B9A355">
 <createdBy>bilsk</createdBy>
-<createdTime>2021-03-09 20:26:51 UTC</createdTime>
+<createdTime>2021-03-11 21:00:48 UTC</createdTime>
 <ownerDesignName>Model Premier League</ownerDesignName>
 <engineerTo>
 <item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
@@ -59,9 +59,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="age" id="188E4D20-B26B-E60F-3817-E0126AA01084">
+<Attribute name="creativity" id="11E8D93A-C69B-63D6-B35C-3755C96AA1FC">
 <createdBy>bilsk</createdBy>
-<createdTime>2021-03-09 20:27:34 UTC</createdTime>
+<createdTime>2021-03-11 21:00:54 UTC</createdTime>
 <ownerDesignName>Model Premier League</ownerDesignName>
 <engineerTo>
 <item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
@@ -70,9 +70,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="placebirth" id="43C9673E-5FE0-D3EE-357F-9BB8052EB654">
+<Attribute name="defending" id="D7D27B46-9EA4-A621-D2D6-B960CD50C763">
 <createdBy>bilsk</createdBy>
-<createdTime>2021-03-09 20:27:40 UTC</createdTime>
+<createdTime>2021-03-11 21:01:03 UTC</createdTime>
 <ownerDesignName>Model Premier League</ownerDesignName>
 <engineerTo>
 <item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
@@ -81,9 +81,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="citizenship" id="F015807F-8BAC-350A-E44E-14396BC13366">
+<Attribute name="tactical" id="0BEDAF4B-2FC1-0E72-CC6A-4F2318748FFD">
 <createdBy>bilsk</createdBy>
-<createdTime>2021-03-09 20:27:53 UTC</createdTime>
+<createdTime>2021-03-11 21:01:09 UTC</createdTime>
 <ownerDesignName>Model Premier League</ownerDesignName>
 <engineerTo>
 <item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
@@ -92,9 +92,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="height" id="D4C1576D-BD5F-CA24-BCD2-3FF8CE988BDB">
+<Attribute name="technical" id="C1D78B51-5F20-9099-D9CA-9F72C8E0B20A">
 <createdBy>bilsk</createdBy>
-<createdTime>2021-03-09 20:28:02 UTC</createdTime>
+<createdTime>2021-03-11 21:01:17 UTC</createdTime>
 <ownerDesignName>Model Premier League</ownerDesignName>
 <engineerTo>
 <item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>

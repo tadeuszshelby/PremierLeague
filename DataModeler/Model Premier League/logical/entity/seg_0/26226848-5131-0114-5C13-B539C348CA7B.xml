@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="26226848-5131-0114-5C13-B539C348CA7B" name="term">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-11 20:53:47 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_term" id="D4924165-2E69-70F9-5898-233260F7205C">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-11 20:53:55 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datematch" id="85F2EBDC-197C-175B-4290-B9A5D65A7238">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-11 20:54:01 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="timematch" id="81F6BBE8-E66B-5568-ADD6-6812E82EA35D">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-11 20:54:09 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="roundnumber" id="75E4FAFD-7AEB-8422-CF50-B9B65EBDF1C6">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-11 20:54:16 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
