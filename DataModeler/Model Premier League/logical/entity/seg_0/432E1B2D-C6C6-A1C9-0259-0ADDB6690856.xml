@@ -15,18 +15,19 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_goal" id="5D335D58-3C19-7D41-2021-97FAEFEEAB31">
+<Attribute name="id goal" id="5D335D58-3C19-7D41-2021-97FAEFEEAB31">
 <createdBy>bilsk</createdBy>
 <createdTime>2021-03-11 20:59:04 UTC</createdTime>
 <ownerDesignName>Model Premier League</ownerDesignName>
 <engineerTo>
 <item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>B0D8138E-23BB-5B22-18CE-49A2F82190EA</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_player" id="4202241C-8AF2-2FCB-8A29-E4CB009C7AA6">
+<Attribute name="id player" id="4202241C-8AF2-2FCB-8A29-E4CB009C7AA6">
 <createdBy>bilsk</createdBy>
 <createdTime>2021-03-11 20:59:12 UTC</createdTime>
 <ownerDesignName>Model Premier League</ownerDesignName>
@@ -35,9 +36,11 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>B0D8138E-23BB-5B22-18CE-49A2F82190EA</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_match" id="09EEFBD6-AA09-821D-BA14-1A3F9106E9D4">
+<Attribute name="id match" id="09EEFBD6-AA09-821D-BA14-1A3F9106E9D4">
 <createdBy>bilsk</createdBy>
 <createdTime>2021-03-11 20:59:17 UTC</createdTime>
 <ownerDesignName>Model Premier League</ownerDesignName>
@@ -93,4 +96,19 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E827EDAD-1837-9B57-D65C-6108C5D9CE4E" name="goal PK">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-14 10:41:52 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5D335D58-3C19-7D41-2021-97FAEFEEAB31</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

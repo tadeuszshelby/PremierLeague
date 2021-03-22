@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="899CDE63-55E2-CA89-636F-D6C7196E9F7D" name="stadium">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-14 12:09:55 UTC</createdTime>
+<generatorID>578472E3-D889-1531-9F9B-B5204AAF3019</generatorID>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_stadium" id="CE538E65-CEA0-60A0-61CF-3D9F89D6006C">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-14 12:09:55 UTC</createdTime>
+<generatorID>0D848030-5C13-D15F-60A4-823AF99DCE77</generatorID>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stadiumname" id="DE94C979-BFCF-9555-66AA-7DCCBA5D5B70">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-14 12:09:55 UTC</createdTime>
+<generatorID>FA909EDC-B2FA-206B-A8AF-CAB5C42C3E75</generatorID>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="town" id="0B258CA3-69C1-1D8C-F313-EDEFE9007C6B">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-14 12:09:55 UTC</createdTime>
+<generatorID>A56F563E-FE03-11FA-26DD-15B23FB54B57</generatorID>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="postcode" id="E895FCD0-E352-3826-D05F-FE035F2A6B76">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-14 12:09:55 UTC</createdTime>
+<generatorID>0A183703-5B40-FA73-FD9D-B6C037C7667B</generatorID>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="street" id="1D379AF7-11A7-24DD-952B-2FD7A1A37885">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-14 12:09:55 UTC</createdTime>
+<generatorID>9E2BF52D-25F0-187A-CAA8-A7CD43A3FF9C</generatorID>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="capacity" id="0EDFBFE7-7DFB-CEBB-0A06-118CE9243E35">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-14 12:09:55 UTC</createdTime>
+<generatorID>7254B119-9BD1-C77E-1E31-0CA825CBCCCB</generatorID>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

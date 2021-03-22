@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="61820A32-E9CD-05A4-716F-8A1CB732B9DF" name="Suspension">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-14 12:09:55 UTC</createdTime>
+<generatorID>1FB12A25-016E-E839-1597-FEE0593F439F</generatorID>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_suspension" id="7FB66027-CAF8-472F-4705-EAF120923C57">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-14 12:09:55 UTC</createdTime>
+<generatorID>F8087B49-AAE7-307B-6169-89CF01EF9EE9</generatorID>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>B0D8138E-23BB-5B22-18CE-49A2F82190EA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_player" id="FD7B3B9A-C45E-9E7A-B534-4E21827D4B95">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-14 12:09:55 UTC</createdTime>
+<generatorID>9A65CEC1-65F8-F0DB-82CF-74A46EB65CEB</generatorID>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>B0D8138E-23BB-5B22-18CE-49A2F82190EA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="season" id="374521E2-B024-6DD3-027D-EDE16D4B834B">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-14 12:09:55 UTC</createdTime>
+<generatorID>07A6A3FE-DB2A-E46B-E780-F786672EEB80</generatorID>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>EC5A2B11-3BD2-8E31-5490-9BFA641382B7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="namesuspension" id="E230206A-E0AC-3D23-F166-D2B3A2DDDC94">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-14 12:09:55 UTC</createdTime>
+<generatorID>C02914A4-D8F7-9FFE-B744-C7202DED00C1</generatorID>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DA87D17D-906F-DBE9-9F4F-E4C409774102</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="from" id="02BF4639-0214-0DD9-68F4-77B4F44D9E44">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-14 12:09:55 UTC</createdTime>
+<generatorID>95FA6BCF-8BC3-A43B-EC07-F2BAF733C775</generatorID>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>EC5A2B11-3BD2-8E31-5490-9BFA641382B7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="until" id="3D1E61AD-91DE-CC49-D79C-7952269538B0">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-14 12:09:55 UTC</createdTime>
+<generatorID>BBDB6551-31F3-313F-1347-2F58B43FF375</generatorID>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>EC5A2B11-3BD2-8E31-5490-9BFA641382B7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="days" id="BAFA75FE-214A-DC2D-14F1-D1C17AD5EF58">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-14 12:09:55 UTC</createdTime>
+<generatorID>27C1DDA3-AF89-93CA-8330-87AC4E6AADD9</generatorID>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT049</logicalDatatype>
+<domain>F559FFA1-BFAC-DE6C-AE09-34AD090C2231</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gamesmissed" id="F6327897-F04E-0B98-6D6E-9860387F176F">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-14 12:09:55 UTC</createdTime>
+<generatorID>75F6100B-5091-4811-58FA-52D92C915046</generatorID>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E52856B3-BE55-12AF-3F56-D53E5D1B9A9F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A44F5CF1-6F79-7D21-23DF-884B3852D9D4" name="Suspension_PK">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-14 13:26:06 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FB66027-CAF8-472F-4705-EAF120923C57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

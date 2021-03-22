@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_term" id="D4924165-2E69-70F9-5898-233260F7205C">
+<Attribute name="id term" id="D4924165-2E69-70F9-5898-233260F7205C">
 <createdBy>bilsk</createdBy>
 <createdTime>2021-03-11 20:53:55 UTC</createdTime>
 <ownerDesignName>Model Premier League</ownerDesignName>

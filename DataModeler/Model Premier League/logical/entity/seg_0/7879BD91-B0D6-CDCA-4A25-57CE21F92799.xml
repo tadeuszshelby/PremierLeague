@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_sponsor" id="F45DD959-D6CE-F35E-89E0-5F217EC0CA2C">
+<Attribute name="id sponsor" id="F45DD959-D6CE-F35E-89E0-5F217EC0CA2C">
 <createdBy>bilsk</createdBy>
 <createdTime>2021-03-11 20:46:19 UTC</createdTime>
 <ownerDesignName>Model Premier League</ownerDesignName>
@@ -26,7 +26,7 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_player" id="89788980-9D16-4AC3-BD20-2024EB06EDFE">
+<Attribute name="id player" id="89788980-9D16-4AC3-BD20-2024EB06EDFE">
 <createdBy>bilsk</createdBy>
 <createdTime>2021-03-11 20:46:30 UTC</createdTime>
 <ownerDesignName>Model Premier League</ownerDesignName>

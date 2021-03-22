@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="783F2D39-1BC2-E410-A1FE-EA1E1C513B3B" name="player">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="783F2D39-1BC2-E410-A1FE-EA1E1C513B3B" name="Player">
 <createdBy>bilsk</createdBy>
 <createdTime>2021-03-09 20:25:14 UTC</createdTime>
 <ownerDesignName>Model Premier League</ownerDesignName>
@@ -15,26 +15,28 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_player" id="AEAC63E8-D7EB-893B-3D01-7D0812A5F095">
+<Attribute name="id player" id="AEAC63E8-D7EB-893B-3D01-7D0812A5F095">
 <createdBy>bilsk</createdBy>
 <createdTime>2021-03-09 20:25:28 UTC</createdTime>
 <ownerDesignName>Model Premier League</ownerDesignName>
 <engineerTo>
 <item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>B0D8138E-23BB-5B22-18CE-49A2F82190EA</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_club" id="F1DA7634-6F58-9EFD-F612-9A01195708AB">
+<Attribute name="id club" id="F1DA7634-6F58-9EFD-F612-9A01195708AB">
 <createdBy>bilsk</createdBy>
 <createdTime>2021-03-09 20:26:01 UTC</createdTime>
 <ownerDesignName>Model Premier League</ownerDesignName>
 <engineerTo>
 <item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>B0D8138E-23BB-5B22-18CE-49A2F82190EA</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="profilepicture" id="C365C07D-FB71-61CD-C4BF-02D7B450649A">
@@ -46,6 +48,8 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<domain>485B6AEF-5AB2-C5BF-6B7D-B0B54F543E28</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="datebirth" id="FC71FD69-526D-4088-E42D-26C508E6948D">
@@ -57,6 +61,8 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>EC5A2B11-3BD2-8E31-5490-9BFA641382B7</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="age" id="188E4D20-B26B-E60F-3817-E0126AA01084">
@@ -68,6 +74,8 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
+<logicalDatatype>LOGDT048</logicalDatatype>
+<domain>81E8992E-9AEE-FC38-46CA-6E283A5B1934</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="placebirth" id="43C9673E-5FE0-D3EE-357F-9BB8052EB654">
@@ -79,6 +87,8 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DA87D17D-906F-DBE9-9F4F-E4C409774102</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="citizenship" id="F015807F-8BAC-350A-E44E-14396BC13366">
@@ -90,6 +100,8 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DA87D17D-906F-DBE9-9F4F-E4C409774102</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="height" id="D4C1576D-BD5F-CA24-BCD2-3FF8CE988BDB">
@@ -101,7 +113,23 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<domain>289756F4-D0FB-26C5-8E76-455539E6B59E</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4B3C946D-EF85-C5D1-EC80-C55F365F5389" name="player PK">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-03-14 10:44:47 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<engineerTo>
+<item key="25B4612A-1559-F1D9-24D9-371679E3BEF4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AEAC63E8-D7EB-893B-3D01-7D0812A5F095</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
