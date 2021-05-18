@@ -13,8 +13,9 @@
 <createdTime>2021-03-14 12:09:55 UTC</createdTime>
 <generatorID>4A66FA1B-6A8E-2E8C-42BA-04F5E3D3A19E</generatorID>
 <ownerDesignName>Model Premier League</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>B0D8138E-23BB-5B22-18CE-49A2F82190EA</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -25,6 +26,8 @@
 <ownerDesignName>Model Premier League</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>B0D8138E-23BB-5B22-18CE-49A2F82190EA</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -35,6 +38,8 @@
 <ownerDesignName>Model Premier League</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<domain>289756F4-D0FB-26C5-8E76-455539E6B59E</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -45,6 +50,8 @@
 <ownerDesignName>Model Premier League</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>EC5A2B11-3BD2-8E31-5490-9BFA641382B7</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -55,6 +62,8 @@
 <ownerDesignName>Model Premier League</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DA87D17D-906F-DBE9-9F4F-E4C409774102</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -65,8 +74,23 @@
 <ownerDesignName>Model Premier League</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DA87D17D-906F-DBE9-9F4F-E4C409774102</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B6BF731C-5577-83CB-0683-683E3AD8FC5F" name="transfer_PK">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-05-18 17:47:25 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B51560A6-C246-D727-E2B3-2543CEBA1E69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
 </Table>

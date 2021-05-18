@@ -24,7 +24,6 @@
 <createdTime>2021-03-14 12:09:55 UTC</createdTime>
 <generatorID>4202241C-8AF2-2FCB-8A29-E4CB009C7AA6</generatorID>
 <ownerDesignName>Model Premier League</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <domain>B0D8138E-23BB-5B22-18CE-49A2F82190EA</domain>
@@ -36,8 +35,9 @@
 <createdTime>2021-03-14 12:09:55 UTC</createdTime>
 <generatorID>09EEFBD6-AA09-821D-BA14-1A3F9106E9D4</generatorID>
 <ownerDesignName>Model Premier League</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>B0D8138E-23BB-5B22-18CE-49A2F82190EA</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -48,6 +48,8 @@
 <ownerDesignName>Model Premier League</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<domain>289756F4-D0FB-26C5-8E76-455539E6B59E</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -58,6 +60,8 @@
 <ownerDesignName>Model Premier League</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<domain>289756F4-D0FB-26C5-8E76-455539E6B59E</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -68,6 +72,8 @@
 <ownerDesignName>Model Premier League</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DA87D17D-906F-DBE9-9F4F-E4C409774102</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -78,6 +84,8 @@
 <ownerDesignName>Model Premier League</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DA87D17D-906F-DBE9-9F4F-E4C409774102</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -93,8 +101,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="8A14F15A-1E98-CE1D-BAC0-3EC7787DD51D"/>
-<colUsage columnID="65CC372C-F246-0BF9-5055-FF3EEFBAA249"/>
-<colUsage columnID="5911A365-0117-13FC-5A36-BFAD3E77AD30"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

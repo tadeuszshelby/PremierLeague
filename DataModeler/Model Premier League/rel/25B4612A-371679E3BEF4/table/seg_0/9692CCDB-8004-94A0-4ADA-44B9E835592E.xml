@@ -13,8 +13,9 @@
 <createdTime>2021-03-14 12:09:55 UTC</createdTime>
 <generatorID>EEFF48C8-46E5-6BF7-2097-D06ACB9A7779</generatorID>
 <ownerDesignName>Model Premier League</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>B0D8138E-23BB-5B22-18CE-49A2F82190EA</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -25,6 +26,8 @@
 <ownerDesignName>Model Premier League</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>B0D8138E-23BB-5B22-18CE-49A2F82190EA</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -35,6 +38,8 @@
 <ownerDesignName>Model Premier League</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>B0D8138E-23BB-5B22-18CE-49A2F82190EA</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -45,6 +50,8 @@
 <ownerDesignName>Model Premier League</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<domain>289756F4-D0FB-26C5-8E76-455539E6B59E</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -55,8 +62,23 @@
 <ownerDesignName>Model Premier League</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>E52856B3-BE55-12AF-3F56-D53E5D1B9A9F</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AA2DE0FF-6CA8-4611-D48D-2519A48B0F29" name="squadnumber_PK">
+<createdBy>bilsk</createdBy>
+<createdTime>2021-05-18 17:48:37 UTC</createdTime>
+<ownerDesignName>Model Premier League</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44BD9A14-AA3A-C7C2-0A06-064F5D1DB103"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
 </Table>
